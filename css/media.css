@@ -1,0 +1,376 @@
+/* Мобильные устройства (до 768px) */
+@media (max-width: 768px) {
+    /* Шапка */
+    header {
+        padding: 8px 15px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    /* Карусель */
+    .carousel {
+        height: 300px;
+    }
+
+    .carousel-content h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .carousel-content p {
+        font-size: 16px;
+    }
+
+    .carousel-indicators .indicator {
+        width: 10px;
+        height: 10px;
+    }
+
+    /* Секция Additional */
+    .additional {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .additional .item.tall,
+    .additional .item.wide {
+        width: 100%;
+        height: 200px;
+        margin: 5px 0;
+    }
+
+    .additional .banner-text h3 {
+        font-size: 28px;
+    }
+
+    .additional .banner-text p {
+        font-size: 18px;
+    }
+
+    /* Top Seller */
+    .top-seller {
+        padding: 20px 10px;
+    }
+
+    .top-seller h2 {
+        font-size: 24px;
+    }
+
+    .top-seller-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-seller-item {
+        width: 80%;
+        margin: 10px 0;
+        height: 250px;
+    }
+
+    .top-seller-item img {
+        height: 70%;
+    }
+
+    .original-price {
+        font-size: 18px;
+    }
+
+    .discounted-price {
+        font-size: 14px;
+    }
+
+    /* Каталог */
+    .catalog {
+        padding: 20px 10px;
+    }
+
+    .catalog h2 {
+        font-size: 24px;
+    }
+
+    .catalog-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .item img {
+        height: 150px;
+    }
+
+    .btn {
+        width: 60%;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    /* Подвал */
+    footer {
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .footer-links a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+}
+
+/* Планшеты (768px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Шапка */
+    header {
+        padding: 10px 20px;
+    }
+
+    .logo {
+        font-size: 26px;
+    }
+
+    /* Карусель */
+    .carousel {
+        height: 350px;
+    }
+
+    .carousel-content h1 {
+        font-size: 30px;
+    }
+
+    .carousel-content p {
+        font-size: 18px;
+    }
+
+    /* Секция Additional */
+    .additional {
+        padding: 30px 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .additional .item.tall {
+        width: 30%;
+        height: 250px;
+    }
+
+    .additional .item.wide {
+        width: 60%;
+        height: 250px;
+    }
+
+    .additional .banner-text h3 {
+        font-size: 34px;
+    }
+
+    .additional .banner-text p {
+        font-size: 22px;
+    }
+
+    /* Top Seller */
+    .top-seller-item {
+        width: 45%;
+        height: 280px;
+    }
+
+    .top-seller-item img {
+        height: 65%;
+    }
+
+    /* Каталог */
+    .item {
+        width: 45%;
+        height: 320px;
+    }
+
+    .item img {
+        height: 180px;
+    }
+
+    .btn {
+        width: 55%;
+    }
+}
+
+/* Десктопы (1024px и выше) */
+@media (min-width: 1025px) {
+    .logo {
+        font-size: 28px;
+    }
+
+    .carousel {
+        height: 400px;
+    }
+
+    .carousel-content h1 {
+        font-size: 36px;
+    }
+
+    .carousel-content p {
+        font-size: 20px;
+    }
+
+    .additional {
+        padding: 40px 80px;
+    }
+
+    .top-seller-item {
+        width: 22%;
+        height: 300px;
+    }
+
+    .item {
+        width: 200px;
+        height: 350px;
+    }
+}
+
+/* Вертикальные экраны (ориентация portrait, любой размер) */
+@media (orientation: portrait) {
+    /* Шапка */
+    header {
+        padding: 15px 20px;
+    }
+
+    .logo {
+        font-size: 32px;
+    }
+
+    /* Карусель */
+    .carousel {
+        height: 50vh; 
+        min-height: 400px;
+    }
+
+    .carousel-content {
+        top: 40%;
+    }
+
+    .carousel-content h1 {
+        font-size: 40px;
+    }
+
+    .carousel-content p {
+        font-size: 22px;
+    }
+
+    .carousel-indicators {
+        bottom: 20px;
+    }
+
+    .carousel-indicators .indicator {
+        width: 14px;
+        height: 14px;
+    }
+
+    /* Секция Additional */
+    .additional {
+        padding: 20px 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .additional .item.tall,
+    .additional .item.wide {
+        width: 90%;
+        height: 350px;
+        margin: 10px 0;
+    }
+
+    .additional .banner-text {
+        top: 50%;
+    }
+
+    .additional .banner-text h3 {
+        font-size: 44px;
+    }
+
+    .additional .banner-text p {
+        font-size: 28px;
+    }
+
+    /* Top Seller */
+    .top-seller {
+        padding: 20px 15px;
+    }
+
+    .top-seller h2 {
+        font-size: 30px;
+    }
+
+    .top-seller-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-seller-item {
+        width: 70%;
+        height: 380px;
+        margin: 15px 0;
+    }
+
+    .top-seller-item img {
+        height: 65%;
+    }
+
+    .original-price {
+        font-size: 20px;
+    }
+
+    .discounted-price {
+        font-size: 16px;
+    }
+
+    /* Каталог */
+    .catalog {
+        padding: 20px 15px;
+    }
+
+    .catalog h2 {
+        font-size: 30px;
+    }
+
+    .catalog-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        width: 70%;
+        height: 400px;
+        margin: 15px 0;
+    }
+
+    .item img {
+        height: 230px;
+    }
+
+    .btn {
+        width: 60%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    /* Подвал */
+    footer {
+        padding: 15px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    .footer-links a {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+}
